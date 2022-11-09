@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('GraphikLCG-Regular.eot');
+    src: url('GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLCG-Regular.woff2') format('woff2'),
+        url('GraphikLCG-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('GraphikLCG-Semibold.eot');
+    src: url('GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('GraphikLCG-Semibold.woff2') format('woff2'),
+        url('GraphikLCG-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

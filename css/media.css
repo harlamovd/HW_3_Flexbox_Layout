@@ -1,0 +1,107 @@
+@media screen and (max-width: 1032px){
+    html {
+        font-size: 16px;
+    }
+    .header {
+        flex-wrap: wrap;
+    }
+    .header__button {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 13px;
+    }
+    .translation {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .translation__rating {
+        border-left: none;
+        border-top: 1px solid #000000;
+    }
+    .footer {
+        grid-template-columns: minmax(300px, 350px) repeat(2, 1fr);
+        grid-template-rows: auto auto 125px;
+    }
+    .footer__list:nth-child(4) {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .footer__list:nth-child(5) {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 11px;
+    }
+    .offer {
+        flex-wrap: wrap-reverse;
+        gap: 15px 0;
+        text-align: center;
+    }
+    .offer__picture {
+        flex: 0 0 400px;
+    }
+    .advantage_block {
+        gap: 50px 0;
+    }
+    .quotes {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .training {
+        padding: 70px 0;
+    }
+    .training__cards {
+        flex-direction: column;
+    }
+    .card_training__icon img {
+        width: 100%;
+    }
+    .card_training__icon {
+        max-width: 100px;
+        min-height: auto;
+    }
+    .card_training__title {
+        margin: 10px 0 10px;
+    }
+    .card_training {
+        flex: 0 1 auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    html {
+        font-size: 9px;
+    }
+    .advantage {
+        gap:50px 30px;
+    }
+    .advantage_block {
+        padding: 35px 0;
+    }
+    .advantage__picture {
+        flex: 0 1 40%;
+    }
+    .card_skill__icon {
+        width: 100px;
+    }
+    .skills__cards {
+        gap: 35px 0;
+    }
+}
+
+
+
